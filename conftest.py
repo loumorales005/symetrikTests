@@ -27,4 +27,3 @@ def setup_response():
     response = requests.request("GET", url)
     response_info = {"responseCode": response.status_code, "responseBody": response.json()}
     return response_info
-

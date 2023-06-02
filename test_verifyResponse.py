@@ -9,8 +9,3 @@ def test_validate_response_code(setup_response):
     print(f"Response Body: {setup_response['responseBody']}")
     assert setup_response['responseCode'] == 200 and setup_response['responseBody'] != "", \
         "There was an error with request"
-
-
-
-
-
